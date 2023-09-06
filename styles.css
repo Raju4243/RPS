@@ -1,0 +1,40 @@
+body{
+    background-color: aquamarine;
+}
+.user,.mac,.res{
+    width:100px;
+    height:100px;
+}
+img{
+    width:150px;
+    height:150px;
+    border-radius: 15px;
+}
+.container{
+    display:flex;
+    flex-direction: column;;
+}
+.show{
+    display: flex;
+    justify-content: space-around;
+}
+.res{
+    margin-left: 600px;
+}
+.options{
+    margin-top: 200px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+button{
+    cursor:pointer;
+    border: none;
+    border-radius: 15px;
+}
+button:hover{
+    box-shadow:10px 10px 10px black;
+}
+h2{
+    width:300px;
+}
